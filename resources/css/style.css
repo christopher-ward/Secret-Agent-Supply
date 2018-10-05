@@ -7,8 +7,6 @@ html {
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 3px red solid;
 }
 
 h1, h4, a {
@@ -26,7 +24,7 @@ header, .banner, nav, .grid, .store-info, .footer {
   max-width: 960px;
   margin: 0 auto;
   /*Temporary*/
-  border: 1px purple solid;
+  border: 1px black solid;
 }
 
 /* Header Section */
@@ -61,9 +59,16 @@ header h4 {
 }
 
 .banner .container {
-
+  margin-top: 9rem;
 }
 
+.banner .headers {
+  width: 20rem;
+  /*Temporary*/
+  border: 1px firebrick solid;
+}
+
+/* Navigation Section */
 nav {
   background-color: firebrick;
 }
@@ -74,5 +79,5 @@ nav a {
 
 /* Temporary */
 header, ul, .grid, .store-info, footer {
-  border: 1px black solid;
+  border: 1px purple solid;
 }
