@@ -63,9 +63,22 @@ header h4 {
 }
 
 .banner .headers {
+  padding: 2rem 3rem;
   width: 20rem;
+  background-color: black;
   /*Temporary*/
   border: 1px firebrick solid;
+}
+
+.banner h4 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.25rem 0;
 }
 
 /* Navigation Section */
