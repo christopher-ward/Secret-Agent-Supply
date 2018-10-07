@@ -1,20 +1,22 @@
-/* Universal */
+/* Github: chrisward90 */
+/* CSS for Codecademy Unit 5 Secret Agent Supply Inc. Project */
+
+/* Site Content Universal */
 html {
   font-size: 18px;
 }
 
-/* Site Content */
+body {
+  font-family: "Helvetica";
+}
+
 .main {
   display: flex;
   flex-direction: column;
-}
-
-h1, h4, a {
-  font-family: Helvetica;
   color: white;
 }
 
-header, .banner, nav, .grid, .store-info, .footer {
+header, .banner, nav, .grid-items, .store-info, .footer {
   width: 100%;
 }
 
@@ -23,8 +25,6 @@ header, .banner, nav, .grid, .store-info, .footer {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
-  /*Temporary*/
-  border: 1px black solid;
 }
 
 /* Header Section */
@@ -44,11 +44,6 @@ header img {
   padding-right: 1rem;
 }
 
-header h4 {
-  color: white;
-  font-size: 1rem;
-}
-
 /* Featured Banner */
 .banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
@@ -62,12 +57,10 @@ header h4 {
   margin-top: 9rem;
 }
 
-.banner .headers {
+.banner .featured {
   padding: 2rem 3rem;
   width: 20rem;
   background-color: black;
-  /*Temporary*/
-  border: 1px firebrick solid;
 }
 
 .banner h4 {
@@ -82,15 +75,82 @@ header h4 {
 }
 
 /* Navigation Section */
+
 nav {
   background-color: firebrick;
 }
 
 nav a {
   text-decoration: none;
+  color: white;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+/* Store Item Grid Section */
+
+.grid-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-item {
+  max-width: 30%;
+}
+
+.item-image img {
+  max-height: 9rem;
+  padding: 2rem;
+}
+
+
+/* .grid-item .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: black;
+} */
+
+
+/* Store Info Section */
+
+
+
+/* Footer */
+
+
+
+/** End of Section for Final Product **/
+
+
+
 /* Temporary */
+
+.container {
+  border: 1px black solid;
+}
+
 header, ul, .grid, .store-info, footer {
   border: 1px purple solid;
 }
+
+.banner .featured {
+  border: 1px firebrick solid;
+}
+
+.grid-item {
+  border: 1px darkorange solid;
+}
+
+.grid-item img {
+  border: 1px darkgreen solid;
+}
+
+/*************/
