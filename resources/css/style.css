@@ -98,9 +98,11 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .grid-item {
+
   width: 30%;
 }
 
@@ -109,6 +111,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 13rem;
+  border: 4px black solid;
 }
 
 .pen .item-image img {
@@ -142,48 +145,43 @@ nav ul {
 }
 
 .info {
-
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
+
+.title {
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+.info-text {
+  color: black;
+}
+
 
 /* Footer */
 
 footer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
   background-color: black;
   height: 13rem;
 }
 
-footer.container {
 
-}
 
 /** End of Section for Final Product **/
 
 
 
+
 /* Temporary */
 
-/* .container {
-  border: 1px black solid;
-} */
 
-.store-info, footer {
-  border: 1px purple solid;
-}
 
-.banner .featured {
-  border: 1px firebrick solid;
-}
-
-.grid-item {
-  border: 1px red solid;
-}
-
-.item-image {
-  border: 1px black solid;
-}
-
-.item-image img {
-  border: 1px lime solid;
-}
 
 /*************/
