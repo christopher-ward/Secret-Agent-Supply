@@ -179,14 +179,12 @@ footer {
 
 /* Media Queries */
 
-/* Desktop Size View */
 @media only screen and (min-width: 1024px) {
   #mobile-nav {
     display: none;
   }
 }
 
-/* Mobile Size View */
 @media only screen and (max-width: 1024px) {
   #site-nav {
     display: none;
@@ -207,29 +205,53 @@ footer {
     width: 47%;
   }
 
-  .info {
-    width: 30%;
+  .grid-item.glasses {
+    display: none;
   }
+
+  .info {
+    width: 35%;
+  }
+
 
 }
 
 @media only screen and (max-width: 470px) {
-  .main-banner {
+  .banner {
     height: 15rem;
   }
 
-  .headline {
+  .featured {
     width: 100%;
     padding: 1rem 2rem;
     top: 10rem;
   }
 
-  .headline h4 {
+  .featured h4 {
     font-size: .77rem;
   }
 
-  .headline h1 {
+  .featured h1 {
     font-size: 1rem;
+  }
+
+
+  .grid-item {
+    width: 90%;
+    margin: auto;
+  }
+
+  .grid-item #watch {
+    display: none;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  footer {
+    text-align: center;
   }
 }
 
