@@ -179,7 +179,26 @@ footer {
 
 /* Media Queries */
 
+/* Desktop Size View */
+@media only screen and (min-width: 1024px) {
+  #mobile-nav {
+    display: none;
+  }
+}
+
+/* Mobile Size View */
 @media only screen and (max-width: 1024px) {
+  #site-nav {
+    display: none;
+  }
+
+  #mobile-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
   .grid-items {
     width: 1000px;
   }
@@ -188,9 +207,10 @@ footer {
     width: 47%;
   }
 
-  .info-text {
-    width: 35%;
+  .info {
+    width: 30%;
   }
+
 }
 
 
